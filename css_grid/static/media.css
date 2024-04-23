@@ -1,0 +1,59 @@
+
+
+@media only screen and (max-width: 700px) {
+
+    .grid-container {
+
+        align-items: center;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 250px auto auto 250px !important;
+
+    }
+
+    .header {
+
+        grid-column: span 1 !important;
+        grid-row: 1 !important;
+        background: url('./images/Firehouse.png')
+    
+    }
+
+    .header-image
+    
+    .content-holder {
+    
+        grid-row: 2 !important;
+        grid-column: span 1 !important;
+        display: flex;
+        flex-direction: column;
+        border: solid black;
+        padding: 10px;
+    
+    }
+    
+    .reviews {
+    
+        grid-row: 3 !important;
+        grid-column: span 1 !important;
+        display: flex;
+        flex-direction: column;
+        border: solid black;
+        padding: 10px;
+    
+    
+    }
+    
+    .footer {
+        
+        grid-row: 4 !important;
+        grid-column: span 1 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: solid black;
+        padding: 10px;
+        margin-bottom: 15px;
+        
+        
+    }
+}

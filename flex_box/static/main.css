@@ -1,0 +1,75 @@
+/* CSS */
+
+@import url('./media.css');
+
+
+header {
+
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    color: black;
+
+}
+
+/* .header-image {
+
+    background-image: url('./images/Firehouse.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+
+} */
+
+nav {
+
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    justify-content: space-evenly;
+    color:white;
+    background-color: black;
+    margin: 10px;
+    padding: 5px
+
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu {
+
+    border: solid;
+    padding: 25px;
+    margin: 10px;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+.reviews {
+
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    margin: 10px;
+
+}
+
+.good-review {
+
+    border: solid;
+    margin: 30px;
+    padding: 25px;
+
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
